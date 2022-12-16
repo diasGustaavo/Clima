@@ -1,54 +1,6 @@
-
-![App Brewery Banner](Documentation/AppBreweryBanner.png)
-
 #  Clima
 
-## Our Goal
+A weather app made with swift storyboards using the [Core Location](https://developer.apple.com/documentation/corelocation) framework that displays the current temperature and sky conditions based on the [OpenWeather](https://openweathermap.org/api) API. Uses both the Delegation & Model–view–controller design patterns.
 
-It’s time to take our app development skills to the next level. We’re going to introduce you to the wonderful world of Application Programming Interfaces (APIs) to grab live data from the internet. If you’re dreaming of making that Twitter-powered stock trading app then you’re about add some serious tools to your toolbelt!
-
-
-## What you will create
-
-By the end of the module, you will have made a beautiful, dark-mode enabled weather app. You'll be able to check the weather for the current location based on the GPS data from the iPhone as well as by searching for a city manually. 
-
-## What you will learn
-
-* How to create a dark-mode enabled app.
-* How to use vector images as image assets.
-* Learn to use the UITextField to get user input. 
-* Learn about the delegate pattern.
-* Swift protocols and extensions. 
-* Swift guard keyword. 
-* Swift computed properties.
-* Swift closures and completion handlers.
-* Learn to use URLSession to network and make HTTP requests.
-* Parse JSON with the native Encodable and Decodable protocols. 
-* Learn to use Grand Central Dispatch to fetch the main thread.
-* Learn to use Core Location to get the current location from the phone GPS. 
-
-### Condition Codes
-```
-switch conditionID {
-        case 200...232:
-            return "cloud.bolt"
-        case 300...321:
-            return "cloud.drizzle"
-        case 500...531:
-            return "cloud.rain"
-        case 600...622:
-            return "cloud.snow"
-        case 701...781:
-            return "cloud.fog"
-        case 800:
-            return "sun.max"
-        case 801...804:
-            return "cloud.bolt"
-        default:
-            return "cloud"
-        }
-```
-
->This is a companion project to The App Brewery's Complete App Development Bootcamp, check out the full course at [www.appbrewery.co](https://www.appbrewery.co/)
-
-![End Banner](Documentation/readme-end-banner.png)
+![Simulator Screen Shot - iPhone 14 Pro - 2022-12-15 at 20 59 35](https://user-images.githubusercontent.com/60455369/207993081-cd5a1868-bc50-4ad8-9afb-adfd32a8843b.png)
+![Simulator Screen Shot - iPhone 14 Pro - 2022-12-15 at 21 00 51](https://user-images.githubusercontent.com/60455369/207993086-c104b653-4d79-4c79-bcd0-a0a76acf64f7.png)
